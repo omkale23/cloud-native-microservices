@@ -45,6 +45,9 @@ readinessProbe:
     path: /health
     port: http
 
+ingress:
+  enabled: false
+
 autoscaling:
   enabled: false
   minReplicas: 1
